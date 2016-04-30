@@ -1,7 +1,7 @@
 'use strict';
 module.exports = function (app) {
 	app.get("/:query",function (req, res) {
-			res.send(JSON.stringify(timeFun(req.params.query)));
+	    res.send(JSON.stringify(timeFun(req.params.query)));
 				});
 };
 
